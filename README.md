@@ -1,7 +1,7 @@
 # Othaim - eCommerce Flutter App
 
 Welcome to Othaim, a Flutter-based eCommerce application designed to provide a smooth and modern shopping experience. Whether you're a beginner or an advanced developer, this project can be a great starting point or reference for building scalable and efficient mobile applications.
-/n
+<br>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/1.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/2.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/3.png" width="15%"></img>
