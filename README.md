@@ -9,34 +9,16 @@ Welcome to Othaim, a Flutter-based eCommerce application designed to provide a s
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/5.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/6.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/7.png" width="15%"></img>
-lib/
-│
-├── config/             # Configuration files for routing, themes, and global settings
-│   ├── app_routes.dart    # Defines named routes for the app
-│   ├── app_theme.dart     # Theme data (colors, fonts, styles)
-│
-├── controllers/        # Controllers for state management (e.g., GetX or other providers)
-│   ├── auth_controller.dart  # Handles authentication logic and state
-│   ├── home_controller.dart  # Manages the home screen state and logic
-│
-├── models/             # Data models representing the structure of data used in the app
-│   ├── user_model.dart     # User model, representing user-related data
-│   ├── product_model.dart  # Product model, representing product-related data
-│
-├── services/           # Services like API calls, local storage, or other business logic
-│   ├── api_service.dart     # Handles network requests using Dio
-│   ├── storage_service.dart # Manages local data storage (Hive, SharedPreferences)
-│
-├── view/               # The UI screens of the app (e.g., login, dashboard, profile)
-│   ├── login_view.dart      # UI for the login screen
-│   ├── home_view.dart       # UI for the home screen
-│   ├── profile_view.dart    # UI for the profile screen
-│
-├── widgets/            # Reusable UI components like buttons, forms, etc.
-│   ├── custom_button.dart   # A custom button widget
-│   ├── app_drawer.dart      # A drawer widget for navigation
-│
-└── main.dart           # Entry point of the application
+# App Structure
+* lib/
+    config/
+      
+    controllers/
+	models/
+	services/
+	view/
+	widgets/
+	main.dart
 
 - dio ^5.7.0 : Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
 - dbadges: ^3.1.2 : This package allows you to add badges to widgets, useful for displaying notifications or counts.
