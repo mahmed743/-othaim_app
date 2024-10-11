@@ -8,9 +8,14 @@ Welcome to Othaim, a Flutter-based eCommerce application designed to provide a s
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/5.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/6.png" width="15%"></img>
 <img src="https://github.com/mahmed743/-othaim_app/blob/master/screenshot/7.png" width="15%"></img>
-- [dio: ^5.7.0]Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- dio ^5.7.0 : Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
+- dbadges: ^3.1.2 : This package allows you to add badges to widgets, useful for displaying notifications or counts.
+- flutter_screenutil: ^5.9.3 : This package is designed to help with responsive design by providing a way to scale UI elements based on screen size.
+- iconly: ^1.0.1 : Iconly provides a set of beautifully designed icons that can be easily integrated into Flutter applications.
+- hive: ^2.0.0 :  Hive is a lightweight and fast key-value database for Flutter, ideal for local storage.
+- hive_flutter: ^1.0.0 : This package adds Flutter-specific functionality to Hive, such as support for listening to data changes.
+- connectivity_plus: ^3.0.0 : This package allows you to check the device's internet connectivity and listen for changes in connectivity status.
+-  path_provider: ^2.1.4 : This package provides a platform-agnostic way to access commonly used locations on the device's filesystem, such as the temp and app documents directory.
+-  cached_network_image: ^3.2.1 : This package allows you to cache images fetched from the internet to improve loading times and reduce data usage.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
