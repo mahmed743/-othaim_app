@@ -72,7 +72,7 @@ Remove from Cart: This test ensures that a product can be successfully removed f
 Clear Cart: Verifies that clearing the cart results in an empty cart and a total price of zero.
 Total Price Calculation: Tests ensure that the total price is calculated accurately based on the quantities and prices of the items in the cart.
 TDD Approach: For the shopping cart functionality, tests were written before the implementation of each feature. The initial tests for adding, adjusting, and removing products were created to define the desired behavior, and the implementation was carried out to ensure these tests passed.
-
+## **packages**
 - dio ^5.7.0 : Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
 - dbadges: ^3.1.2 : This package allows you to add badges to widgets, useful for displaying notifications or counts.
 - flutter_screenutil: ^5.9.3 : This package is designed to help with responsive design by providing a way to scale UI elements based on screen size.
