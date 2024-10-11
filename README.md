@@ -39,6 +39,17 @@ Welcome to Othaim, a Flutter-based eCommerce application designed to provide a s
 	widgets/
 	main.dart
 
+
+## **Installation**
+
+To install Project Title, follow these steps:
+
+1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
+2. Navigate to the project directory: **`cd project-title`**
+3. Install dependencies: **`npm install`**
+4. Build the project: **`npm run build`**
+5. Start the project: **`npm start`**
+
 - dio ^5.7.0 : Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
 - dbadges: ^3.1.2 : This package allows you to add badges to widgets, useful for displaying notifications or counts.
 - flutter_screenutil: ^5.9.3 : This package is designed to help with responsive design by providing a way to scale UI elements based on screen size.
