@@ -1,13 +1,7 @@
-# othaim
+# Othaim - eCommerce Flutter App
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
+Welcome to Othaim, a Flutter-based eCommerce application designed to provide a smooth and modern shopping experience. Whether you're a beginner or an advanced developer, this project can be a great starting point or reference for building scalable and efficient mobile applications.
+(screenshot/1.png)
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
