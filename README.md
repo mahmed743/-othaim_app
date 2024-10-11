@@ -49,6 +49,28 @@ To install Project Title, follow these steps:
 3. Install dependencies: **`flutter pub get`**
 4. Build the project: **`flutter run`**
 
+1. Product Management
+Test Files: productController_test.dart
+
+Coverage:
+
+Offline Product Fetching: When the app is offline, it retrieves products from the local cache using Hive. Tests cover the scenario where a product is cached and fetched correctly while offline.
+Online Product Fetching: The app fetches products from an API when online. Unit tests mock the API response and verify that the products are correctly populated in the controller.
+Product Searching: Unit tests check whether the search functionality works as expected by filtering the cached products based on user input.
+TDD Approach: For fetching products both online and offline, the tests were written first. This ensured that both caching mechanisms and the API fetching logic were implemented to satisfy the test cases. This provided better assurance that the product retrieval logic works under different conditions (online/offline).
+
+2. Shopping Cart Management
+Test Files: shoppingCartController_test.dart
+
+Coverage:
+
+Add to Cart: Tests cover the behavior when products are added to the shopping cart. It verifies that product quantities and total prices are updated correctly.
+Adjust Quantity: Unit tests ensure that adjusting the quantity of a product in the cart works as expected, and total price is recalculated accordingly.
+Remove from Cart: This test ensures that a product can be successfully removed from the shopping cart and that both the cart and total price are updated.
+Clear Cart: Verifies that clearing the cart results in an empty cart and a total price of zero.
+Total Price Calculation: Tests ensure that the total price is calculated accurately based on the quantities and prices of the items in the cart.
+TDD Approach: For the shopping cart functionality, tests were written before the implementation of each feature. The initial tests for adding, adjusting, and removing products were created to define the desired behavior, and the implementation was carried out to ensure these tests passed.
+
 - dio ^5.7.0 : Dio is a powerful HTTP client for Dart, offering features like interceptors, global configuration, form data, request cancellation, and file downloading.
 - dbadges: ^3.1.2 : This package allows you to add badges to widgets, useful for displaying notifications or counts.
 - flutter_screenutil: ^5.9.3 : This package is designed to help with responsive design by providing a way to scale UI elements based on screen size.
